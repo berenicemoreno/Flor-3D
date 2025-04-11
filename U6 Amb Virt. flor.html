@@ -1,0 +1,40 @@
+<html>
+<head>
+  <script src="https://aframe.io/releases/0.5.0/aframe.min.js"></script>
+</head>
+<body>
+  <a-scene>
+    <!-- Cámara centrada -->
+    <a-camera position="0 1.6 5" look-controls="enabled"></a-camera>
+
+    <!-- Cuadrados formando una flor -->
+    <a-box position="0 3.5 -5" depth="1" height="1" width="1" color="#FF4500"></a-box>
+    <a-box position="0 4.5 -5" depth="1" height="1" width="1" color="#FF6347"></a-box>
+    <a-box position="-1 4 -5" depth="1" height="1" width="1" color="#FFD700"></a-box>
+    <a-box position="1 4 -5" depth="1" height="1" width="1" color="#32CD32"></a-box>
+    <a-box position="-0.7 3 -5" depth="1" height="1" width="1" color="#00BFFF"></a-box>
+    <a-box position="0.7 3 -5" depth="1" height="1" width="1" color="#8A2BE2"></a-box>
+
+    <!-- Centro de la flor -->
+    <a-box position="0 4 -5" depth="1" height="1" width="1" color="#FF69B4"></a-box>
+
+    <!-- Tallo de la flor -->
+    <a-box position="0 1.5 -5" depth="0.5" height="2" width="0.5" color="#228B22"></a-box>
+
+    <!-- Hojas (cuadros verdes) -->
+    <a-box position="-1 2 -5" depth="0.5" height="1" width="1" color="#006400"></a-box>
+    <a-box position="1 2 -5" depth="0.5" height="1" width="1" color="#006400"></a-box>
+
+    <!-- Plano cuadrado -->
+    <a-plane position="0 0 -5" rotation="-90 0 0" width="10" height="10" color="#006400"></a-plane>
+
+    <!-- Cielo azul -->
+    <a-sky color="#87CEEB"></a-sky>
+  </a-scene>
+</body>
+</html>
+
+
+
+
+
